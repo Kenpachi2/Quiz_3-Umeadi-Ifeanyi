@@ -93,6 +93,14 @@ main{
 	/* width: 50px; */
 }
 form{
-	height: 800px;
+	display: grid;
+	height: 300px;
 	margin: 20px auto;
+	align-items: center;
+	justify-content: space-around;
+	border: 1px solid lightgray;
+	padding: 50px;
+}
+form h1{
+	font-family: 'Times New Roman', Times, serif;
 }
