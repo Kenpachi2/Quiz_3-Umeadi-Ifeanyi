@@ -92,15 +92,42 @@ main{
 	height: 50%;
 	/* width: 50px; */
 }
+
 form{
 	display: grid;
 	height: 300px;
 	margin: 20px auto;
 	align-items: center;
 	justify-content: space-around;
-	border: 1px solid lightgray;
+	border: 3px inset lightgray;
 	padding: 50px;
 }
 form h1{
 	font-family: 'Times New Roman', Times, serif;
+}
+form h2{
+	background-color: red;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+button{
+	background-color: #E23C3C;
+	width: 90px;
+	padding: 4px;
+	font-size: 15px;
+	margin-top: 40px;
+	border: #E23C3C solid 4px;
+	border-radius: 2px;
+	/* margin-bottom: 400px; */
+	justify-self: end;
+	color: aliceblue;
+}
+a{
+	color: #E23C3C;
+}
+/* .need-help img::after{
+	content: 'Telegram:';
+} */
+.recovery{
+	margin-top: 70px;
 }
